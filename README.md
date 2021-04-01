@@ -1,7 +1,5 @@
 # La-Huerta
 # Aquí vamos a crear el Proyecto de la huerta
-# Javi desde su rama 1
+# Javi desde su rama
 # Nata desde su rama
-# Menx desde su rama
-# Pascu desde su rama
-
+# Menx desde su rama 
