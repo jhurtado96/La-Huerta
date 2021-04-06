@@ -16,8 +16,9 @@
   <h1>La Huerta</h1>
     <div class="spacer"></div>
     <div class="contenedor">
-      <a mat-button (click)="openDialog()"><a><img class="icono" src="assets/img/cestade-la-compra.png" alt=""></a></a> 
-    <a><img class="icono2" src="assets/img/usuario-de-perfil.png" alt=""></a>
+      <!-- <a mat-button matBadge="3" (click)="openDialog()"><a><img class="icono" src="assets/img/cestade-la-compra.png" alt=""></a></a>  -->
+      <mat-icon class="icon" type="button" matBadge="3"  (click)="openDialog()">shopping_basket</mat-icon>
+      <mat-icon class="icon" type="button">person</mat-icon>
   </div>
 </div>
  

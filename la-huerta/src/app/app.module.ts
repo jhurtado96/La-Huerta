@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatBadgeModule} from '@angular/material/badge';
 import { ListaDeseosComponent } from './pages/lista-deseos/lista-deseos.component';
+import {MatIconModule} from '@angular/material/icon';
+
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { ListaDeseosComponent } from './pages/lista-deseos/lista-deseos.componen
     BrowserAnimationsModule,
     MatToolbarModule,
     MatDialogModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
