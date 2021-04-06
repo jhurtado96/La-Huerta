@@ -1,0 +1,218 @@
+<div class="toolbar" role="banner">
+    <img
+  
+      width="140"
+      height="100"
+      alt="Angular Logo"
+      src="assets/img/ICOfruitBAG.png"
+    />
+    <h1>La Huerta</h1>
+      <div class="spacer"></div>
+      <!-- <a><img class="icono" src="assets/img/usuario-de-perfil.png" alt=""></a>
+      <img class="icono" src="assets/img/cestade-la-compra.png" alt=""> -->
+</div>
+
+  <!-- ////////////////////////////////////////////////// -->
+<div class="row" style="margin-top: 5%;">
+<!-- Tarjeta del tomate -->
+    <div class="column" style="width: 400px;">
+        <!-- margin-left: 17%; -->
+        <mat-card class="cards columnCards"> 
+            <img class = "imgCard" mat-card-image src="../../../assets/IMG/MAS.png" alt="tomates">
+            <mat-card-content>
+                <p class= "contentCard"> <span class="nameField">¡Añade la imagen con la que quieres que te identifiquen!</span></p>
+              </mat-card-content>
+          </mat-card>
+    </div>
+<!-- Tarjeta de Registro -->
+    <div class="column" style="width: 800px;">
+
+        <!-- <div class="row"> -->
+            <!-- style="margin-right:25%;" -->
+            <div class="column">
+                <mat-card class="cards columnCards"> 
+                    <mat-card-title class = "cardtitle">¡Bienvenido!</mat-card-title>
+                        <mat-card-content>
+                            <form [formGroup]="myLog">
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Nombre</label>
+                                    <input type="text" class="form-control" formControlName="name"
+                                    [ngClass]="{'is-invalid': !myLog.get('name').valid}">
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Apellido 1</label>
+                                    <input type="text" class="form-control" formControlName="surname1"
+                                    [ngClass]="{'is-invalid': !myLog.get('surname1').valid}">
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Apellido 2</label>
+                                    <input type="text" class="form-control" formControlName="surname2"
+                                    [ngClass]="{'is-invalid': !myLog.get('surname2').valid}">
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Fecha Nacimiento</label>
+                                    <input type="date" class="form-control" formControlName="fechanacimiento"
+                                    [ngClass]="{'is-invalid': !myLog.get('fechanacimiento').valid}">
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Nombre de usuario</label>
+                                    <input type="text" class="form-control" formControlName="username"
+                                    [ngClass]="{'is-invalid': !myLog.get('username').valid}">
+                                </div>
+
+                                <!-- <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Localidad</label>
+                                    <input type="text" class="form-control" formControlName="localidad"
+                                    [ngClass]="{'is-invalid': !myLog.get('localidad').valid}">                    
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Codigo postal</label>
+                                    <input type="number" class="form-control" formControlName="codigopostal"
+                                    [ngClass]="{'is-invalid': !myLog.get('codigopostal').valid}">                    
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Email</label>
+                                    <input type="text" class="form-control" formControlName="email"
+                                    [ngClass]="{'is-invalid': !myLog.get('email').valid}">
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Contraseña</label>
+                                    <input type="text" class="form-control" formControlName="password"
+                                    [ngClass]="{'is-invalid': !myLog.get('password').valid}">                    
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Repetir contraseña</label>
+                                    <input type="text" class="form-control" formControlName="repeatPassword"
+                                    [ngClass]="{'is-invalid': !myLog.get('repeatPassword').valid}">                    
+                                </div> -->
+
+                                <div class="form-group">
+                                    <button class="btn btn-block" style="background-color: #267172;font-family: 'Roboto', sans-serif;color:white" (click)="register()">Iniciar sesión</button>
+                                </div>
+    
+                            </form>
+                            
+                          </mat-card-content>
+                </mat-card>
+            </div>
+
+        <!-- </div> -->
+
+    </div>
+    <!-- Tarjeta de Registro 2-->
+    <div class="column" style="width: 800px;">
+
+        <!-- <div class="row" > -->
+            <!-- style="margin-right:25%;" -->
+            <div class="column">
+                <mat-card class="cards columnCards"> 
+                    <mat-card-title class = "cardtitle">¡Bienvenido!</mat-card-title>
+                        <mat-card-content>
+                            <form [formGroup]="myLog">
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Localidad</label>
+                                    <input type="text" class="form-control" formControlName="localidad"
+                                    [ngClass]="{'is-invalid': !myLog.get('localidad').valid}">                    
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Codigo postal</label>
+                                    <input type="number" class="form-control" formControlName="codigopostal"
+                                    [ngClass]="{'is-invalid': !myLog.get('codigopostal').valid}">                    
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Email</label>
+                                    <input type="text" class="form-control" formControlName="email"
+                                    [ngClass]="{'is-invalid': !myLog.get('email').valid}">
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Contraseña</label>
+                                    <input type="text" class="form-control" formControlName="password"
+                                    [ngClass]="{'is-invalid': !myLog.get('password').valid}">                    
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Repetir contraseña</label>
+                                    <input type="text" class="form-control" formControlName="repeatPassword"
+                                    [ngClass]="{'is-invalid': !myLog.get('repeatPassword').valid}">                    
+                                </div>
+
+                                <div class="form-group">
+                                    <button class="btn btn-block" style="background-color: #267172;font-family: 'Roboto', sans-serif;color:white" (click)="register()">Iniciar sesión</button>
+                                </div>
+    
+                            </form>
+                            
+                          </mat-card-content>
+                </mat-card>
+            </div>
+
+        <!-- </div> -->
+    </div>
+</div>
+<!-- <p class= "contentCard"> <span class="nameField">¡El que madruga, se lleva la mejor lechuga!</span></p> -->
+<!-- Footer -->
+<div class="row" id="footer">
+
+    <a class="pp" href="">Politicas de Privacidad</a>
+    <a class="contacto" href="">Contácto</a>
+    <a class="about" href="">Sobre la Huerta</a>
+    <a class="frecuentes" href="">Preguntas frecuentes</a>
+ 
+    <img src="./../../../assets/IMG/FOOTER DEF (1).png" >
+ 
+    <!-- <img id="ig" src="">
+    <img id="fb" src="" > -->
+ 
+</div>
+
+ <!-- <button mat-raised-button (click)="isLinear = !isLinear" id="toggle-linear">
+    {{!isLinear ? 'Enable linear mode' : 'Disable linear mode'}}
+  </button>
+  <mat-vertical-stepper [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Escribe tu name</ng-template>
+        <mat-form-field>
+          <mat-label>Nombre</mat-label>
+          <input matInput formControlName="firstCtrl" required>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>Fill out your address</ng-template>
+        <mat-form-field>
+          <mat-label>Address</mat-label>
+          <input matInput formControlName="secondCtrl"required>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel>Done</ng-template>
+      <p>You are now done.</p>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button (click)="stepper.reset()">Reset</button>
+      </div>
+    </mat-step>
+  </mat-vertical-stepper> -->

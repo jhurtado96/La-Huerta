@@ -1,0 +1,238 @@
+/* CSS rules to specify families
+
+COLORES
+naranja claro --> #F39C12
+naranja ocuro --> #E67E22
+verde ----------> #267172
+gris -----------> #767676
+blanco ---------> #FdFFFF
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika', sans-serif;
+*/
+
+.color
+{
+    background-color:#267172 ;
+}
+.row{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.img{
+
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.type
+{
+    font-family: 'Roboto', sans-serif;
+}
+/*/////////////////////////////*/
+#footer img{
+    width: 100%;
+    height: 150px;
+}
+#footer{
+    bottom: 0;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+
+}
+#footer a{
+    text-decoration: none;
+    padding: 15px;
+    color:#FdFFFF ;
+    font-family: 'Roboto', sans-serif;
+}
+#footer p{ 
+    padding: 20px;
+}
+.pp{
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    transform: translate(-30%,-70%);
+}
+
+.contacto{
+    position: absolute;
+    left: 43%;
+    top: 70%;
+    transform: translate(-43%,-70%); 
+}
+.about{
+    position: absolute;
+    left: 45%;
+    top: 70%;
+    transform: translate(45%,-70%);
+}
+.frecuentes{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    transform: translate(-70%,-70%);
+}
+#ig{
+
+    position: absolute;
+    left: 90%;
+    top: 70%;
+    transform: translate(-90%,-70%);
+}
+#fb{
+
+    position: absolute;
+    left: 94%;
+    top: 70%;
+    transform: translate(-90%,-70%);
+}
+/* ///////////////////////////////////////////// */
+.cards {
+    max-width: 250px;
+    border-radius: 25px;
+    margin-right: 35px;
+    margin-left: 35px;
+    padding-bottom: 30px;
+    border-color: #767676;
+  }
+  #collectCards{
+    padding: 12px;
+    margin-top: 30px;
+  
+  }
+  #collectCards > .cards{
+    margin: 12px;
+  }
+  .cards:hover{
+    box-shadow: 6px 6px 6px  #267172;
+  }
+  .imgCard {
+    background-size: cover;
+  }
+  
+  .rowCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .columnCards {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: flex-start;
+  }
+  
+  .contentCard {
+   font-family: 'Roboto', sans-serif;
+   text-align: left;
+   color: #767676;
+  }
+  
+  .cardtitle{
+   font-family: 'Signika', sans-serif;
+   /* text-align: left; */
+   margin-left: 20%;
+   color: #e67e22;
+  }
+  .nameField{
+   font-style: normal;
+   font-weight: bold;
+   color: #767676;
+  }
+
+  /* ///////////////////////////////////////// */
+  h1 {
+    margin: 0;
+    font-family: 'Signika', sans-serif;
+    font-size: 50px;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #E67E22;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 25px;
+    padding: 10px;
+  }
+
+  .toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 8px;
+  }
+
+  .toolbar #youtube-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo:hover,
+  .toolbar #youtube-logo:hover {
+    opacity: 0.8;
+  }
+
+
+
+  svg.material-icons {
+    height: 24px;
+    width: auto;
+  }
+
+  svg.material-icons:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  .card svg.material-icons path {
+    fill: #888;
+  }
+
+
+
+    svg#rocket-smoke {
+      right: 120px;
+      transform: rotate(-5deg);
+    }
+    .icono{
+        width: 50px;
+        height: 50px;
+
+    } 
+
+  @media screen and (max-width: 575px) {
+    svg#rocket-smoke {
+      display: none;
+      visibility: hidden;
+    }
+  }

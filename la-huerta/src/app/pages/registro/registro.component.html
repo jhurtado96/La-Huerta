@@ -1,0 +1,75 @@
+<div class="toolbar" role="banner">
+    <img
+  
+      width="140"
+      height="100"
+      alt="Angular Logo"
+      src="assets/img/ICOfruitBAG.png"
+    />
+    <h1>La Huerta</h1>
+      <div class="spacer"></div>
+      <!-- <a><img class="icono" src="assets/img/usuario-de-perfil.png" alt=""></a>
+      <img class="icono" src="assets/img/cestade-la-compra.png" alt=""> -->
+  </div>
+  
+  <!-- ////////////////////////////////////////////////// -->
+  
+<div class="row" style="margin-top: 4%;">
+<!-- Tarjeta del tomate -->
+    <div class="column" style="width: 400px; margin-left: 17%;">
+        <mat-card class="cards columnCards"> 
+            <img class = "imgCard" mat-card-image src="../../../assets/IMG/tomate.jpg" alt="tomates">
+            <mat-card-content>
+                <p class= "contentCard"> <span class="nameField">¡Los mejores productos sólo a un click!</span></p>
+              </mat-card-content>
+          </mat-card>
+    </div>
+<!-- Tarjeta de Registro -->
+    <div class="column" style="width: 800px;">
+
+        <div class="row" style="margin-right:25%;">
+            <div class="column">
+                <mat-card class="cards columnCards"> 
+                    <mat-card-title class = "cardtitle">¡Bienvenido!</mat-card-title>
+                        <mat-card-content>
+                            <form [formGroup]="myRegister">
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Introduzca email</label>
+                                    <input type="text" class="form-control" formControlName="email"
+                                    [ngClass]="{'is-invalid': !myRegister.get('email').valid}">
+                    
+                                </div>
+                                <div class="form-group">
+                                    <label style="font-family: 'Roboto', sans-serif">Contraseña</label>
+                                    <input type="text" class="form-control" formControlName="password"
+                                    [ngClass]="{'is-invalid': !myRegister.get('password').valid}">
+                    
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-block" style="background-color: #267172;font-family: 'Roboto', sans-serif;color:white" (click)="register()">Iniciar sesión</button>
+                                </div>
+    
+                            </form>
+                            <p class= "contentCard"> <span class="nameField">¡El que madruga, se lleva la mejor lechuga!</span></p>
+                          </mat-card-content>
+                </mat-card>
+            </div>
+
+        </div>
+
+</div>
+<!-- Footer -->
+<div class="row" id="footer">
+
+    <a class="pp" href="">Politicas de Privacidad</a>
+    <a class="contacto" href="">Contácto</a>
+    <a class="about" href="">Sobre la Huerta</a>
+    <a class="frecuentes" href="">Preguntas frecuentes</a>
+ 
+    <img src="./../../../assets/IMG/FOOTER DEF (1).png" >
+ 
+    <!-- <img id="ig" src="">
+    <img id="fb" src="" > -->
+ 
+ </div>
+
