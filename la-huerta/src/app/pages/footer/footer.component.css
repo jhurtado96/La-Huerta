@@ -1,0 +1,95 @@
+/* 
+#footer img{
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+}
+#footer{
+    bottom: 0;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+
+}
+#footer a{
+    text-decoration: none;
+    padding: 15px;
+    color:#FdFFFF ;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+.pp{
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    transform: translate(-30%,-70%);
+}
+
+.contacto{
+    position: absolute;
+    left: 42%;
+    top: 70%;
+    transform: translate(-42%,-70%); 
+}
+.about{
+    position: absolute;
+    left: 43% ;
+    top: 70%;
+    transform: translate(43%,-70%);
+}
+.frecuentes{
+    position: absolute;
+    right:  30% ;
+    top: 70%;
+    transform: translate(-30%,-70%);
+}
+.tw{
+    position: absolute;
+    right:  10% ;
+    top: 70%;
+    transform: translate(-10%,-70%);
+   
+}
+.fb{
+    position: absolute;
+    right:  13% ;
+    top: 70%;
+    transform: translate(-13%,-70%);
+   
+} */
+.toolbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./../../../assets/img/FOOTER-DEF.png");
+    /* background-position:center; */
+    color: white;
+    font-weight: 600;
+  }
+  
+  .item{
+      color: #fdffff;
+      text-decoration: none;
+      display: inline-block;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      margin-bottom: -100px;
+  }
+
+  .icon{
+      color: #fdffff;
+      text-decoration: none;
+      display: inline-block;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      margin-bottom: -100px;
+        
+  }
