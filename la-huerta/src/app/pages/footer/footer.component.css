@@ -1,8 +1,59 @@
-footer{
-    background-color: black;
-    position: absolute;
-    bottom: 0;
+
+#footer img{
     width: 100%;
-    height: 40px;
-    color: white;
+    height: 150px;
+    bottom: 0;
+}
+#footer{
+    bottom: 0;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+
+}
+#footer a{
+    text-decoration: none;
+    padding: 15px;
+    color:#FdFFFF ;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+.pp{
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    transform: translate(-30%,-70%);
+}
+
+.contacto{
+    position: absolute;
+    left: 42%;
+    top: 70%;
+    transform: translate(-42%,-70%); 
+}
+.about{
+    position: absolute;
+    left: 43% ;
+    top: 70%;
+    transform: translate(43%,-70%);
+}
+.frecuentes{
+    position: absolute;
+    right:  30% ;
+    top: 70%;
+    transform: translate(-30%,-70%);
+}
+.tw{
+    position: absolute;
+    right:  10% ;
+    top: 70%;
+    transform: translate(-10%,-70%);
+   
+}
+.fb{
+    position: absolute;
+    right:  13% ;
+    top: 70%;
+    transform: translate(-13%,-70%);
+   
 }
