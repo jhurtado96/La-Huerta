@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
 import {ListaDeseosComponent} from 'src/app/pages/lista-deseos/lista-deseos.component'
+
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',

@@ -10,15 +10,21 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatBadgeModule} from '@angular/material/badge';
 import { ListaDeseosComponent } from './pages/lista-deseos/lista-deseos.component';
 import {MatIconModule} from '@angular/material/icon';
-
-
+import { ChatComponent } from './pages/chat/chat.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatInputModule} from '@angular/material/input';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    ListaDeseosComponent
+    ListaDeseosComponent,
+    ChatComponent
   ],
   entryComponents:[ListaDeseosComponent],
   imports: [
@@ -28,7 +34,13 @@ import {MatIconModule} from '@angular/material/icon';
     MatToolbarModule,
     MatDialogModule,
     MatBadgeModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule,
+    MatDividerModule,
+    MatListModule,
+    MatGridListModule,
+    MatInputModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
