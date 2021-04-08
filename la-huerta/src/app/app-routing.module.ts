@@ -5,6 +5,7 @@ import { AnadirProductoComponent } from './pages/anadir-producto/anadir-producto
 import { HeaderComponent } from './pages/header/header.component';
 import { LogInComponent } from './pages/log-in/log-in.component';
 import { RegistroComponent } from './pages/registro/registro.component';
+import { LaHuertaTiendaComponent } from './pages/la-huerta-tienda/la-huerta-tienda.component';
 
 
 const routes: Routes = 
@@ -23,6 +24,9 @@ const routes: Routes =
   },
   {
     path:"chat",component:ChatComponent
+  },
+  {
+    path:"huerta",component:LaHuertaTiendaComponent
   }
 ];
 
