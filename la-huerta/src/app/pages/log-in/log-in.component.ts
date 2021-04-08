@@ -36,7 +36,7 @@ export class LogInComponent implements OnInit
       codigopostal: [,Validators.required],
       email:[,Validators.required, Validators.email],
       password:[,Validators.required, Validators.minLength(minPassLength)],
-      repeatPassword: [,Validators.required]
+      repeatPassword: [,Validators.required, Validators.minLength(minPassLength)]
     });
   }
 ///////////////////////////////////////////////////////////////////////////////////////////////

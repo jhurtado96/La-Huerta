@@ -16,6 +16,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatBadgeModule} from '@angular/material/badge';
 import { ListaDeseosComponent } from './pages/lista-deseos/lista-deseos.component';
 import {MatIconModule} from '@angular/material/icon';
+import { AnadirProductoComponent } from './pages/anadir-producto/anadir-producto.component';
 
 
 
@@ -26,7 +27,8 @@ import {MatIconModule} from '@angular/material/icon';
     LogInComponent,
     FooterComponent,
     HeaderComponent,
-    ListaDeseosComponent
+    ListaDeseosComponent,
+    AnadirProductoComponent
   ],
   entryComponents:[ListaDeseosComponent],
   imports: [

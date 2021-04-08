@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AnadirProductoComponent } from './pages/anadir-producto/anadir-producto.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { LogInComponent } from './pages/log-in/log-in.component';
 import { RegistroComponent } from './pages/registro/registro.component';
@@ -14,6 +15,9 @@ const routes: Routes =
   },
   {
     path:"header",component:HeaderComponent
+  },
+  {
+    path:"anaproducto",component:AnadirProductoComponent
   }
 ];
 
