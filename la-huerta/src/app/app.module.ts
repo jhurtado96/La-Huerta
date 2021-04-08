@@ -17,6 +17,9 @@ import {MatListModule} from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatSliderModule} from '@angular/material/slider';
+
 import { LaHuertaTiendaComponent } from './pages/la-huerta-tienda/la-huerta-tienda.component';
 
 @NgModule({
@@ -42,7 +45,9 @@ import { LaHuertaTiendaComponent } from './pages/la-huerta-tienda/la-huerta-tien
     MatListModule,
     MatGridListModule,
     MatInputModule,
-    MatTableModule
+    MatTableModule,
+    MatExpansionModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
