@@ -18,7 +18,9 @@ font-family: 'Signika', sans-serif;
     margin-right: 35px;
     margin-left: 35px;
     padding-bottom: 30px;
+    border: sol 0.1px;
     border-color: #767676;
+    margin: 70px;
 }
 #collectCards
 {
