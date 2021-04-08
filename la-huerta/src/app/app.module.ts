@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
 import { LogInComponent } from './pages/log-in/log-in.component';
 import { MatStepperModule } from '@angular/material/stepper';
 import {MatFormFieldModule} from '@angular/material/form-field';
@@ -27,6 +26,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatSliderModule} from '@angular/material/slider';
 import { LaHuertaTiendaComponent } from './pages/la-huerta-tienda/la-huerta-tienda.component';
 import { AnadirProductoComponent } from './pages/anadir-producto/anadir-producto.component';
+import { MisProductosComponent } from './pages/mis-productos/mis-productos.component';
 
 
 
@@ -40,7 +40,8 @@ import { AnadirProductoComponent } from './pages/anadir-producto/anadir-producto
     ListaDeseosComponent,
     ChatComponent,
     LaHuertaTiendaComponent,
-    AnadirProductoComponent
+    AnadirProductoComponent,
+    MisProductosComponent
   ],
   entryComponents:[ListaDeseosComponent],
   imports: [
