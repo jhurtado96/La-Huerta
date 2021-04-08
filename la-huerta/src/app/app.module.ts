@@ -17,6 +17,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
+import { LaHuertaTiendaComponent } from './pages/la-huerta-tienda/la-huerta-tienda.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {MatTableModule} from '@angular/material/table';
     FooterComponent,
     HeaderComponent,
     ListaDeseosComponent,
-    ChatComponent
+    ChatComponent,
+    LaHuertaTiendaComponent
   ],
   entryComponents:[ListaDeseosComponent],
   imports: [
