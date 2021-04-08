@@ -32,6 +32,7 @@ import { PerfilEditarComponent } from './pages/perfil-editar/perfil-editar.compo
 import { PedidosActivosComponent } from './pages/pedidos-activos/pedidos-activos.component';
 import { HistorialPedidosComponent } from './pages/historial-pedidos/historial-pedidos.component';
 import { ModalLaHuertaTiendaComponent } from './pages/modal-la-huerta-tienda/modal-la-huerta-tienda.component';
+import { LandingComponent } from './pages/landing/landing.component';
 
 
 
@@ -51,7 +52,8 @@ import { ModalLaHuertaTiendaComponent } from './pages/modal-la-huerta-tienda/mod
     PerfilEditarComponent,
     PedidosActivosComponent,
     HistorialPedidosComponent,
-    ModalLaHuertaTiendaComponent
+    ModalLaHuertaTiendaComponent,
+    LandingComponent
   ],
   entryComponents:[ListaDeseosComponent],
   imports: [
