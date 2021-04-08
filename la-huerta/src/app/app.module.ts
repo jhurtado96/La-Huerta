@@ -3,6 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RegistroComponent } from './pages/registro/registro.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { LogInComponent } from './pages/log-in/log-in.component';
+import { MatStepperModule } from '@angular/material/stepper';
+import {MatFormFieldModule} from '@angular/material/form-field';
 import { FooterComponent } from './pages/footer/footer.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -17,19 +23,30 @@ import {MatListModule} from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
+import { AnadirProductoComponent } from './pages/anadir-producto/anadir-producto.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    RegistroComponent,
+    LogInComponent,
     FooterComponent,
     HeaderComponent,
     ListaDeseosComponent,
-    ChatComponent
+    ChatComponent,
+    AnadirProductoComponent
   ],
   entryComponents:[ListaDeseosComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatCardModule,
+    MatStepperModule,
+    MatFormFieldModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatDialogModule,
