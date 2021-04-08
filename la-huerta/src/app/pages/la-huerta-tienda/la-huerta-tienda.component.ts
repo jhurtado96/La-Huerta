@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
+import { ModalLaHuertaTiendaComponent } from '../modal-la-huerta-tienda/modal-la-huerta-tienda.component';
+
 
 @Component({
   selector: 'app-la-huerta-tienda',
@@ -7,8 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LaHuertaTiendaComponent implements OnInit {
 
-  constructor() { }
+  constructor(public modalDialogo: MatDialog) { }
  
+  openDialog() {
+    this.modalDialogo.open(ModalLaHuertaTiendaComponent);
+  }
   ngOnInit(): void {
   }
 

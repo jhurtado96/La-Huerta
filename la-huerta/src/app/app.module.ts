@@ -27,6 +27,11 @@ import {MatSliderModule} from '@angular/material/slider';
 import { LaHuertaTiendaComponent } from './pages/la-huerta-tienda/la-huerta-tienda.component';
 import { AnadirProductoComponent } from './pages/anadir-producto/anadir-producto.component';
 import { MisProductosComponent } from './pages/mis-productos/mis-productos.component';
+import { PerfilComponent } from './pages/perfil/perfil.component';
+import { PerfilEditarComponent } from './pages/perfil-editar/perfil-editar.component';
+import { PedidosActivosComponent } from './pages/pedidos-activos/pedidos-activos.component';
+import { HistorialPedidosComponent } from './pages/historial-pedidos/historial-pedidos.component';
+import { ModalLaHuertaTiendaComponent } from './pages/modal-la-huerta-tienda/modal-la-huerta-tienda.component';
 
 
 
@@ -41,7 +46,12 @@ import { MisProductosComponent } from './pages/mis-productos/mis-productos.compo
     ChatComponent,
     LaHuertaTiendaComponent,
     AnadirProductoComponent,
-    MisProductosComponent
+    MisProductosComponent,
+    PerfilComponent,
+    PerfilEditarComponent,
+    PedidosActivosComponent,
+    HistorialPedidosComponent,
+    ModalLaHuertaTiendaComponent
   ],
   entryComponents:[ListaDeseosComponent],
   imports: [

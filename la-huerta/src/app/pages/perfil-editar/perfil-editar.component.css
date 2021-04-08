@@ -1,0 +1,86 @@
+/* 
+COLORES
+    > naranja claro --> #F39C12
+    > naranja ocuro --> #E67E22
+    > verde ----------> #267172
+    > gris -----------> #767676
+    > blanco ---------> #FdFFFF
+
+TIPOGRAFIAS
+    > Headers: font-family: 'Signika', sans-serif;
+    > Textos: font-family: 'Roboto', sans-serif; */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: inherit;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#container {
+  width: 100%;
+  margin: 0;
+}
+#dataprofile {
+  margin-top: 10%;
+}
+#dataprofile input {
+  padding: 8px;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  width: 400px;
+}
+#dataprofile button {
+  background-color: #267172;
+  border-radius: 15px;
+  color: #fdffff;
+  padding: 10px;
+  width: 200px;
+  border-style: none;
+  margin-left: 10%;
+}
+
+#foto_perfil {
+  border-radius: 50%;
+  width: 350px;
+  margin-top: 10%;
+}
+#edit_foto {
+  border-style: none;
+  background-color: #fdffff;
+
+  position: absolute;
+  left: 43%;
+  top: 60%;
+  transform: translate(-10%, -60%);
+}
+
+/* RESPONISVE */
+@media screen and (max-width: 830px) {
+  #edit-profile {
+    flex-direction: column;
+  }
+  #foto_perfil {
+    margin-left: 10%;
+  }
+  #edit_foto {
+    position: absolute;
+    left: 25%;
+    top: 60%;
+    transform: translate(-10%, -60%);
+  }
+}
+@media screen and (max-width: 450px) {
+  #edit_foto {
+    display: none;
+  }
+}

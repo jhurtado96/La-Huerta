@@ -1,0 +1,206 @@
+/* /* 
+COLORES
+    > naranja claro --> #F39C12
+    > naranja ocuro --> #E67E22
+    > verde ----------> #267172
+    > gris -----------> #767676
+    > blanco ---------> #FdFFFF
+
+TIPOGRAFIAS
+    > Headers: font-family: 'Signika', sans-serif;
+    > Textos: font-family: 'Roboto', sans-serif; */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: inherit;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#container {
+  width: 100%;
+  margin: 0;
+}
+
+/* IMAGEN DE PERFIL */
+#imgPerfil {
+  border-radius: 50%;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  transform: translate(-5%, -47%);
+  width: 250px;
+}
+
+/* DATOS DE PERFIL */
+#edit-profile {
+  position: absolute;
+  left: 80%;
+  top: 28%;
+  transform: translate(-0%, -28%);
+  color: #f39c12;
+  font-family: "Roboto", sans-serif;
+}
+
+#data {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  align-items: flex-start;
+
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  transform: translate(-0%, -45%);
+}
+#UserName {
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  transform: translate(-0%, -20%);
+  color: #f39c12;
+  font-family: "Roboto", sans-serif;
+}
+#data p {
+  margin-left: 10px;
+}
+#data img {
+  margin-top: 8px;
+}
+
+/* TROFEOS DE PERFIL */
+#trophy {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  align-items: flex-start;
+  width: 50%;
+
+  position: absolute;
+  left: 65%;
+  top: 45%;
+  transform: translate(-0%, -45%);
+}
+#trophy p {
+  margin-left: 10px;
+}
+#trophy img {
+  margin-top: 9px;
+}
+#verLogros {
+  position: absolute;
+  left: 25%;
+  top: 92%;
+  transform: translate(-30%, -92%);
+
+  text-align: left;
+  color: #767676;
+  text-decoration: none;
+}
+#verLogros:hover {
+  color: #267172;
+}
+
+/* RESPONISVE */
+@media screen and (max-width: 980px) {
+  #UserName {
+    position: absolute;
+    margin-left: 5%;
+  }
+  #data {
+    position: absolute;
+    margin-left: 5%;
+  }
+  #trophy {
+    position: absolute;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 812px) {
+  #UserName {
+    position: absolute;
+    margin-left: 10%;
+  }
+  #data {
+    position: absolute;
+    margin-left: 10%;
+  }
+  #trophy {
+    visibility: hidden;
+  }
+  #edit-profile {
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    transform: translate(-0%, -60%);
+    color: #f39c12;
+    font-family: "Roboto", sans-serif;
+  }
+}
+@media screen and (max-width: 690px) {
+  #UserName {
+    position: absolute;
+    margin-left: 20%;
+  }
+
+  #data {
+    position: absolute;
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 690px) {
+  #data {
+    position: absolute;
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 558px) {
+  #imgPerfil {
+    width: 40%;
+  }
+  #UserName {
+    font-size: medium;
+  }
+  #data {
+    font-size: small;
+  }
+}
+
+/*  NAVEGACION */
+
+#separador {
+  height: 2px;
+  width: 80%;
+  background-color: #f39c12;
+
+  position: absolute;
+  left: 48%;
+  top: 65%;
+  transform: translate(-45%, -65%);
+}
+
+#navBar {
+  width: 80%;
+  position: absolute;
+  left: 35%;
+  top: 70%;
+  transform: translate(-35%, -70%);
+}
+#navBar a {
+  text-decoration: none;
+  color: #767676;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  padding: 10px;
+  margin-left: 10%;
+}
+#navBar a:hover {
+  color: #267172;
+}
