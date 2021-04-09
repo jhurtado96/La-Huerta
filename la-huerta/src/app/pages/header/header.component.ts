@@ -12,7 +12,11 @@ export class HeaderComponent implements OnInit {
 
   constructor(public dialog: MatDialog) { }
   openDialog() {
-    this.dialog.open(ListaDeseosComponent);
+   const dialogRef = this.dialog.open(ListaDeseosComponent);
+
+   dialogRef.afterClosed().subscribe(result =>{
+     console.log('Dialog result: ${result}');
+   });
   }
   ngOnInit(): void {
   }
