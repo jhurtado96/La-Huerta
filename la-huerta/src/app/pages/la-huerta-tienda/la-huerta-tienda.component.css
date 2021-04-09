@@ -72,11 +72,11 @@ label{
 }
 mat-expansion-panel{
   width: 850px;
-  margin-left: 275px;
+  margin-left: 235px;
 }
 #buscar{
-margin-right: 140px;
-margin-bottom: 30px
+ margin-right: 140px;
+ margin-bottom: 30px
 }
 button {
   border-radius: 25px;
