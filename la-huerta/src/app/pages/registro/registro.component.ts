@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { User } from 'src/app/model/user';
 
 @Component({
   selector: 'app-registro',
@@ -27,11 +28,11 @@ export class RegistroComponent implements OnInit
 
     this.myRegister = this.formBuilder.group
     ({
-      email:[,Validators.required, Validators.email],
-      password:[,Validators.required, Validators.minLength(minPassLength)]
+      email:[,[Validators.required, Validators.email]],
+      password:[,[Validators.required, Validators.minLength(minPassLength)]]
     });
   }
-
+  
   ngOnInit(): void 
   {
   }
