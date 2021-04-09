@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Filtros*/
 
 .rowFiltros {
@@ -159,3 +160,165 @@ button:hover {
 #edit {
   margin-right: 10px;
 }
+=======
+.rowFiltros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  
+  .rowInsideFiltros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .columnFilter {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: flex-start;
+  }
+  .columnCheck {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+  
+  #lineExp {
+    margin-right: 455px;
+  }
+  #filtros {
+    margin-top: 130px;
+  }
+  
+  mat-expansion-panel{
+    width: 620px;
+  }
+  .mat-expansion-panel:not([class*="mat-elevation-z"]) {
+    box-shadow: none;
+  }
+  
+  #filtros p {
+    font-family: "Signika", sans-serif;
+    font-size: 20px;
+    color: #e67e22;
+  }
+  
+  #lupa {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    padding-top: 2px;
+  }
+  #buscar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+  }
+  #buscar input {
+    height: 25px;
+  }
+  
+  #localizacion {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  #precio {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  #filtrosButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  /****** TARJETAS ******/
+  .cards {
+    max-width: 250px;
+    border-radius: 25px;
+    /*margin-right: 35px;
+        margin-left: 35px;*/
+    padding-bottom: 30px;
+    border-color: #cac6c6;
+    border: solid, 1px;
+    border-width: 0.5px;
+  }
+  
+  /*#collectCards {
+      padding: 12px;
+    }
+    */
+  
+  #collectCards > .cards {
+    margin: 12px;
+  }
+  
+  .imgCard {
+    background-size: cover;
+  }
+  
+  .rowCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .columnCards {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: flex-start;
+  }
+  
+  .contentCard {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    color: #767676;
+  }
+  
+  .cardtitle {
+    font-family: "Signika", sans-serif;
+    text-align: left;
+    color: #e67e22;
+  }
+  .nameField {
+    font-style: normal;
+    font-weight: bold;
+    color: #767676;
+  }
+  
+  button {
+    border-radius: 25px;
+    width: 85px;
+    height: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #fdffee;
+    font-size: 15px;
+    border: 0.16em solid rgba(255, 255, 255, 0);
+    text-decoration: none;
+    background-color: #267172;
+    transition: box-shadow 0.16s ease;
+  }
+  
+  button:hover {
+    background: #408f91;
+    box-shadow: none;
+  }
+  
+  .buttonsCards {
+    margin-right: 72px;
+    margin-left: 75px;
+  }
+  
+  #edit {
+    margin-right: 10px;
+  }
+  
+>>>>>>> main
