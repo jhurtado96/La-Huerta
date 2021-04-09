@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 .rowInsideFiltros {
   display: flex;
@@ -40,6 +41,9 @@
   color: #e67e22;
 }
 
+input{
+  margin-top: 2px;
+}
 #lupa {
   width: 14px;
   height: 15px;
@@ -49,19 +53,31 @@
 
 #localizacion {
   margin-left: 10px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 #precio {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
+label{
+  margin-left: 5px;
+}
 #filtrosButton {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
+  margin-left: 37%;
+  margin-right: 37%;
 }
-
+mat-expansion-panel{
+  width: 850px;
+  margin-left: 275px;
+}
+#buscar{
+margin-right: 140px;
+margin-bottom: 30px
+}
 button {
   border-radius: 25px;
   width: 85px;
@@ -97,7 +113,7 @@ h2 {
 
 /*tarjetas*/
 .cards {
-  max-width: 250px;
+  max-width: 265px;
   border-radius: 25px;
   padding-bottom: 30px;
   border-color: #767676;

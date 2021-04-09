@@ -12,34 +12,33 @@ button {
   background-color: #267172;
   transition: box-shadow 0.16s ease;
 }
-  
+
 button:hover {
   background: #408f91;
   box-shadow: none;
 }
 
-#buy{
-  margin-top: 10px;
+#buy {
+  margin-top: -10px;
   margin-right: 170px;
   margin-left: 170px;
 }
 /*****TARJETA*******/
 
-
-#collectCards{
- padding: 12px;
- margin-top: 30px;
+#collectCards {
+  padding: 12px;
+  margin-top: 30px;
 }
 
-#collectCards > .cards{
+#collectCards > .cards {
   margin: 12px;
 }
-.cards:hover{
-  box-shadow: 6px 6px 6px  #267172;
+.cards:hover {
+  box-shadow: 6px 6px 6px #267172;
 }
 .imgCard {
   background-size: cover;
-  margin-bottom: 9px;
+  margin-bottom: 5px;
 }
 
 .rowCards {
@@ -56,34 +55,34 @@ button:hover {
 }
 
 .contentCard {
- font-family: 'Roboto', sans-serif;
- text-align: left;
- color: #767676;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  color: #767676;
 }
 
-h1{
- font-family: 'Signika', sans-serif;
- text-align: left;
- color: #e67e22;
- margin-left: 10px;
+h1 {
+  font-family: "Signika", sans-serif;
+  text-align: left;
+  color: #e67e22;
+  margin-left: 10px;
 }
-.nameField{
- font-style: normal;
- font-weight: bold;
- color: #767676;
+.nameField {
+  font-style: normal;
+  font-weight: bold;
+  color: #767676;
 }
 
-mat-dialog-content{
+mat-dialog-content {
   max-width: 475px;
-  max-height: 750px;
+  height: 540px;
 }
 
-#fotoProduct{
- width: 400px;
- margin-left: 10px;
- margin-top: 2px;
+#fotoProduct {
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 2px;
 }
-#cuerpoTexto{
-  margin-top: 10px;
+#cuerpoTexto {
+  margin-top: 5px;
   margin-left: 10px;
 }
