@@ -10,6 +10,8 @@ TIPOGRAFIAS
     > Headers: font-family: 'Signika', sans-serif;
     > Textos: font-family: 'Roboto', sans-serif; */
 
+
+    
 .row {
   display: flex;
   flex-direction: row;
@@ -17,6 +19,15 @@ TIPOGRAFIAS
   text-align: center;
   align-items: inherit;
 }
+
+.colImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
 
 .col {
   display: flex;
@@ -33,43 +44,50 @@ TIPOGRAFIAS
 
 /* IMAGEN DE PERFIL */
 #imgPerfil {
-  border-radius: 50%;
+  width: 255px;
+  border-radius: 190px;
+  margin-top: 155px;
+  margin-right:95px;
+  margin-left: 30px;
+  margin-bottom: 55px;
+  /*border-radius: 50%;
   position: absolute;
   left: 20%;
   top: 40%;
   transform: translate(-5%, -47%);
-  width: 250px;
+  width: 250px;*/
 }
 
 /* DATOS DE PERFIL */
 #edit-profile {
-  position: absolute;
+  /*position: absolute;
   left: 80%;
   top: 28%;
   transform: translate(-0%, -28%);
   color: #f39c12;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;*/
 }
 
 #data {
   font-family: "Roboto", sans-serif;
   font-size: small;
   align-items: flex-start;
-
-  position: absolute;
+  margin-right: 20px; 
+  /*position: absolute;
   left: 45%;
   top: 45%;
-  transform: translate(-0%, -45%);
+  transform: translate(-0%, -45%);*/
 }
 #UserName {
-  position: absolute;
+  /*position: absolute;
   left: 45%;
   top: 25%;
-  transform: translate(-0%, -20%);
+  transform: translate(-0%, -20%);*/
   color: #f39c12;
   font-family: "Roboto", sans-serif;
 }
 #data p {
+  margin-top: 10px;
   margin-left: 10px;
 }
 #data img {
@@ -81,34 +99,37 @@ TIPOGRAFIAS
   font-family: "Roboto", sans-serif;
   font-size: small;
   align-items: flex-start;
-  width: 50%;
+  margin-top: 35px;
+  /*width: 50%;
 
   position: absolute;
   left: 65%;
   top: 45%;
-  transform: translate(-0%, -45%);
+  transform: translate(-0%, -45%);*/
 }
 #trophy p {
+  margin-top: 10px;
   margin-left: 10px;
 }
 #trophy img {
-  margin-top: 9px;
+  margin-top: 8px;
 }
 #verLogros {
-  position: absolute;
+  margin-top: 0px;
+  /*position: absolute;
   left: 25%;
   top: 92%;
   transform: translate(-30%, -92%);
-
   text-align: left;
   color: #767676;
-  text-decoration: none;
+  text-decoration: none;*/
 }
 #verLogros:hover {
   color: #267172;
 }
 
 /* RESPONISVE */
+/*
 @media screen and (max-width: 980px) {
   #UserName {
     position: absolute;
@@ -172,7 +193,7 @@ TIPOGRAFIAS
     font-size: small;
   }
 }
-
+*/
 /*  NAVEGACION */
 
 #separador {
