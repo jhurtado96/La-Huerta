@@ -1,14 +1,14 @@
 .rowFiltros {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .rowInsideFiltros {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .columnFilter {
@@ -26,14 +26,15 @@
 }
 
 #lineExp {
-  margin-right: 455px;
+  margin-right: 355px;
 }
 #filtros {
   margin-top: 130px;
 }
 
 mat-expansion-panel {
-  width: 620px;
+  width: 1050px;
+  margin-left: 290px;
 }
 .mat-expansion-panel:not([class*="mat-elevation-z"]) {
   box-shadow: none;
@@ -60,37 +61,52 @@ mat-expansion-panel {
   height: 25px;
 }
 
-#localizacion {
+#tipo {
   margin-left: 10px;
   margin-right: 20px;
 }
 #precio {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+}
+
+label{
+  margin-left: 8px;
+  margin-bottom: -5px;
 }
 
 #filtrosButton {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
+  margin-left: 45px;
 }
 
+#dentroFiltrar{
+  margin-left: 15px;
+}
+
+/*****SLIDER****/
+
+::ng-deep .mat-accent .mat-slider-thumb {
+  background-color: #267172;
+}
+::ng-deep .mat-accent .mat-slider-track-fill {
+  background-color: #267172;
+}  
+mat-slider{
+  margin-right: 50px;
+  color: #267172;
+  
+}
 /****** TARJETAS ******/
 .cards {
   max-width: 250px;
   border-radius: 25px;
-  /*margin-right: 35px;
-        margin-left: 35px;*/
   padding-bottom: 30px;
   border-color: #cac6c6;
   border: solid, 1px;
   border-width: 0.5px;
 }
-
-/*#collectCards {
-      padding: 12px;
-    }
-    */
 
 #collectCards > .cards {
   margin: 12px;
@@ -104,6 +120,7 @@ mat-expansion-panel {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .columnCards {
@@ -156,4 +173,10 @@ button:hover {
 
 #edit {
   margin-right: 10px;
+}
+
+@media (max-width: 1500px) {
+  mat-expansion-panel {
+    margin-left: 890px;
+  }
 }
