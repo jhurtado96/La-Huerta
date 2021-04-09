@@ -35,11 +35,12 @@ TIPOGRAFIAS
 }
 #dataprofile input {
   padding: 8px;
-  margin-bottom: 5%;
-  margin-left: 10%;
+  margin-bottom: 6%;
+  margin-left: 5px;
+  margin-right: 25px;
   width: 400px;
 }
-#dataprofile button {
+/*#dataprofile button {
   background-color: #267172;
   border-radius: 15px;
   color: #fdffff;
@@ -47,6 +48,25 @@ TIPOGRAFIAS
   width: 200px;
   border-style: none;
   margin-left: 10%;
+}*/
+
+button {
+  border-radius: 25px;
+  width: 205px;
+  height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #fdffee;
+  font-size: 15px;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  text-decoration: none;
+  background-color: #267172;
+  transition: box-shadow 0.16s ease;
+}
+
+button:hover {
+  background: #408f91;
+  box-shadow: none;
 }
 
 #foto_perfil {
@@ -57,11 +77,8 @@ TIPOGRAFIAS
 #edit_foto {
   border-style: none;
   background-color: #fdffff;
+  margin-left: 320px;
 
-  position: absolute;
-  left: 43%;
-  top: 60%;
-  transform: translate(-10%, -60%);
 }
 
 /* RESPONISVE */
