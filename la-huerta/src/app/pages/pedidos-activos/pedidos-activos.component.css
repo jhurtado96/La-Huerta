@@ -124,3 +124,10 @@ thead {
 tr:nth-child(even) {
   background: rgb(235, 229, 229);
 }
+
+/*titulo*/
+.cardtitle {
+  font-family: "Signika", sans-serif;
+  text-align: center;
+  color: #e67e22;
+}

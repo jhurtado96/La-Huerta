@@ -27,11 +27,11 @@ export class RegistroComponent implements OnInit
 
     this.myRegister = this.formBuilder.group
     ({
-      email:[,Validators.required, Validators.email],
-      password:[,Validators.required, Validators.minLength(minPassLength)]
+      email:[,[Validators.required, Validators.email]],
+      password:[,[Validators.required, Validators.minLength(minPassLength)]]
     });
   }
-
+  
   ngOnInit(): void 
   {
   }
