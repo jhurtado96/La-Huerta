@@ -124,6 +124,13 @@
     text-align: left;
     color: #e67e22;
   }
+  .cardtitle2
+{
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    /* margin-left: 7%; */
+    color: #e67e22; 
+}
   .nameField {
     font-style: normal;
     font-weight: bold;
