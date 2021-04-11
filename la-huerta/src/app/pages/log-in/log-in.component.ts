@@ -30,10 +30,10 @@ export class LogInComponent implements OnInit
       // name: [, Validators.required],
       // surname1: [,Validators.required],
       // surname2: [,Validators.required],
-      // fechanacimiento: [,Validators.required],
+      // birthYear: [,Validators.required],
       // username: [,Validators.required],
       // localidad: [,Validators.required],
-      // codigopostal: [,Validators.required],
+      // cp: [,Validators.required],
       email:[,[Validators.required, Validators.email]],
       password:[,[Validators.required, Validators.minLength(minPassLength)]],
       repeatPassword: [,[Validators.required, Validators.minLength(minPassLength)]]

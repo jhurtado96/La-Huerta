@@ -25,15 +25,16 @@ export class AnadirProductoComponent implements OnInit {
   {
     this.myProduct = this.formBuilder.group
     ({
-      name:[,Validators.required],
-      typeOfProduct:[,Validators.required],
-      amount:[,Validators.required],
-      locality:[,Validators.required],
-      price:[,Validators.required]
+      productName:[,Validators.required],
+      productType:[,Validators.required],
+      productAmount:[,Validators.required],
+      productPrice:[,Validators.required]
     })
   }
-  // eco:[,Validators.required],
-  // change:[,Validators.required],
+  // productEco:[,Validators.required],
+  // productChange:[,Validators.required],
+  // productLocality:[,Validators.required],
+
   ngOnInit(): void {
   }
 
