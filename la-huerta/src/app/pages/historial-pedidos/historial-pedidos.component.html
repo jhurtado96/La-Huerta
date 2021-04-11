@@ -4,33 +4,35 @@
 <div id="filtros" class="rowFiltros">
     <mat-expansion-panel id="lineExp" hideToggle>
       <mat-expansion-panel-header>
-        <mat-panel-title id="filtroName">
+        <mat-panel-title  id="filtroName">
           <p>Filtrar productos</p>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <div class="rowInsideFiltros">
-        <div class="columnFilter" id="localizacion">
+      
+      <div class="rowInsideFiltros" id="dentroFiltrar">
+       
+        <div class="columnFilter" id="tipo">
           <p>Tipo</p>
+
           <div class="columnFilter">
-            <div>
+            <div class="rowInsideFiltros">
               <input type="checkbox" id="fruta" name="fruta" value="fruta" />
               <label for="fruta">Fruta</label><br />
-              <input
-                type="checkbox"
-                id="verdura"
-                name="verdura"
-                value="verdura"
-              />
-              <label for="fruta">verdura</label><br />
+            </div>
+            <div class="rowInsideFiltros">
+              <input type="checkbox" id="verdura"name="verdura"value="verdura"/>
+              <label for="verdura">Verdura</label><br />
             </div>
           </div>
         </div>
+
         <div class="columnFilter" id="precio">
           <p>Precio</p>
           <div>
-            <mat-slider>PONER INDICATIVO DE PRECIO CON js</mat-slider>
+            <mat-slider min="1" max="5" step="0.5" value="1.5">PONER INDICATIVO DE PRECIO CON js</mat-slider>
           </div>
         </div>
+
         <div class="columnFilter" id="eco">
           <p>Eco</p>
           <div>
@@ -38,6 +40,7 @@
             <label for="fruta">Eco</label><br />
           </div>
         </div>
+
         <div class="columnFilter" id="trueque">
           <p>Trueque</p>
           <div>
@@ -45,10 +48,11 @@
             <label for="fruta">Acepta trueque</label><br />
           </div>
         </div>
-      </div>
-      <div id="buscar">
-        <img id="lupa" src="./assets/lupa3.png" alt="" />
-        <input matInput placeholder="Buscar" />
+        <div class="columnFilter" id="buscar">
+          <img id="lupa" src="./assets/img/lupa3.png" alt="" />
+          <input matInput placeholder="Buscar" />
+        </div>
+
       </div>
       <div id="filtrosButton">
         <button>Filtrar</button>

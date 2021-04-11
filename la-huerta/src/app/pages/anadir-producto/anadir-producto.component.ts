@@ -28,12 +28,13 @@ export class AnadirProductoComponent implements OnInit {
       productName:[,Validators.required],
       productType:[,Validators.required],
       productAmount:[,Validators.required],
-      productLocality:[,Validators.required],
       productPrice:[,Validators.required]
     })
   }
   // productEco:[,Validators.required],
   // productChange:[,Validators.required],
+  // productLocality:[,Validators.required],
+
   ngOnInit(): void {
   }
 
